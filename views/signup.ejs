@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+
+<body>
+    <div class="container_body">
+        <div class="container">
+            <div class="top_sec">
+                <h3>Sign Up</h3>
+
+                <form action="/" method="POST">
+                    <div class="inp">
+
+                        <div class="inp1">
+                            <label for="Name">First name</label>
+                            <input name="fname" id="fname" type="text" required />
+                        </div>
+                        <div class="inp1">
+                            <label for="Name">Last name</label>
+                            <input name="lname" id="lname" type="text" required />
+                        </div>
+                        <div class="inp1">
+                            <label for="Name">Email</label>
+                            <input name="email" id="email" type="text" required />
+                        </div>
+                        <div class="inp1">
+                            <label for="Mobile">Mobile Number</label>
+                            <input name="phno" id="phno" type="number" required />
+                        </div>
+                        <div class="inp2">
+                            <div class="pass-flex">
+                                <label for="Password">Password</label>
+                            </div>
+                            <input name="password" id="password" type="password" required />
+                        </div>
+                        <div class="inp2">
+                            <div class="pass-flex">
+                                <label for="Password">Confirm Password</label>
+                            </div>
+                            <input name="cpassword" id="cpassword" type="password" required />
+                        </div>
+                        <!-- <button class="btn_submit" type="reset">
+                            <a href="/"> Register</a>
+                        </button> -->
+                        <input id="signup" type="submit" value="Rigister" />
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
